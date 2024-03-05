@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+	font-family: "Montserrat";
+	margin: 0;
+	padding: 0;
+	background-color: #F7DED0;
+}
+
+.closemenu{
+	display: none;
+}
+
+/*-----------Blocks---------------*/
+
+main{
+	margin: 15px 15%;
+	padding: 20px;
+	background-color: #FEECE2;
+	border-radius: 5px;
+}
+
+header{
+	background: linear-gradient(#FFBE98, #F7DED0);
+	display: flex;
+	height: 75px;
+}
+
+.img{
+	display: flex;
+	justify-content: space-between;
+}
+
+.services{
+	display: flex;
+	justify-content: space-between;
+}
+
+.servp{
+	width: 250px;
+}
+
+/*-------------Main--------------------*/
+
+main h1{
+	text-align: center;
+	font-size: 50px;
+}
+
+/*-------------Images------------------*/
+
+img{
+	width: 200px;
+	height: 145px;
+	border-radius: 10px;
+}
+
+/*------------Navbar---------------------*/
+
+.menubutton{
+	display: none;
+}
+
+nav{
+	width: 100%;
+}
+
+.menu{
+	width: 50%;
+	height: 100%;
+	margin-top: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+li{
+	list-style-type: none;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+}
+
+/*-------------Searchbar--------------------*/
+
+.searchbar input{
+	height: 100%;
+	width: 250px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.searchbar{
+	height: 35px;
+	margin: 20px;
+}
+
+/*--------------Footer----------------------*/
+
+footer{
+	display: flex;
+	background-color: #FFBE98;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 20px;
+}
+
+/*--------------Texte----------------*/
+
+.welcome h1{
+	font-family: "Dancing Script";
+}
+
+hr{
+	height: 3px;
+	background-color: black;
+	margin: 40px 0px;
+}
+
+/*---------------Pages----------------*/
+
+.description{
+	display: flex;
+}
+
+.equipe{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.equipe p{
+	text-align: center;
+}
+
+.equipe img{
+	border-radius: 100px;
+}
+
+/*-----------Contact-------------*/
+
+form{
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+}
+
+form input, select{
+	padding: 15px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	margin: 20px 0px;
+}
+
+input[name="nom"]{
+	margin-right: 0px;
+}
+
+.invisible{
+	display: none;
+}
+
+input[name="envoyer"]{
+	width: fit-content;
+	margin: auto;
+}
+
+.center{
+	text-align: center;
+}
+
+.check{
+	display: flex;
+	margin-bottom: 25px;
+}
+
+.check input{
+	margin: 0 10px;
+}
+
+/*---------------Realisations-------------------*/
+
+.mosaique{
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+	justify-content: space-evenly;
+}
+
+.mosaique img{
+	margin: 20px 0;
+}
